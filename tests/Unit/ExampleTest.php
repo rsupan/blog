@@ -13,6 +13,6 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        $this->fail('Test force failure');
+        $this->assertTrue(true);
     }
 }
